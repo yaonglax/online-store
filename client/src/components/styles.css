@@ -1,0 +1,41 @@
+
+.container {
+    margin: 100px auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+  
+}
+.slider-line {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    flex: 0 0 850px;
+   
+}
+
+.pagination .page-link {
+    color: black; 
+    background-color: white; 
+}
+.pagination .page-link:hover {
+    color: rgb(28, 28, 28); 
+    background-color: white; 
+}
+.pagination .page-link:active {
+    color: rgb(28, 28, 28); 
+    background-color: white;
+    box-shadow: 0px 0px 5px black; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: black; 
+    border-color: black;
+}
